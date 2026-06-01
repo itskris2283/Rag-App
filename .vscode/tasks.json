@@ -1,0 +1,37 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "dev-frontend",
+			"type": "shell",
+			"command": "cd frontend; npm run dev",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "dev-backend",
+			"type": "shell",
+			"command": "cd backend; python -m uvicorn main:app --host 127.0.0.1 --port 8000",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "dev-backend-fixed",
+			"type": "shell",
+			"command": "cd backend; python -m uvicorn main:app --host 127.0.0.1 --port 8000",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "dev-backend-fixed-2",
+			"type": "shell",
+			"command": "cd backend; python -m uvicorn main:app --host 127.0.0.1 --port 8000",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
